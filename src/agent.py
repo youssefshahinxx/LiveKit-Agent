@@ -443,7 +443,7 @@ Once you have the details, use the `book_appointment` tool immediately to check 
             user_status: Assign status of the customer. Use 'New' if they are booking, 'Reschedule' if moving an existing appointment, or 'Cancel' if canceling an existing appointment.
         """
 
-        url = "https://cs-desk.app.n8n.cloud/webhook-test/calendar-tool"
+        url = "https://example.app.n8n.cloud/webhook-test/calendar-tool" #Add whatever tool calendar, calculator, email, etc...
         payload = {
             k: v for k, v in {
                 "patient_name": patient_name,
